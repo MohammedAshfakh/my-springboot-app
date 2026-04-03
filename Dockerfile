@@ -1,4 +1,5 @@
-FROM openjdk:8-jdk-alpine  #thisis java 8
+# this is java 8
+FROM openjdk:8-jdk-alpine
 WORKDIR /app
 COPY target/spring-boot-rest-example-0.5.0.war app.war
 EXPOSE 8080
